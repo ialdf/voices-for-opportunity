@@ -57,6 +57,16 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+        email: {
+          bg: "hsl(var(--email-bg))",
+          card: "hsl(var(--email-card))",
+          text: "hsl(var(--email-text))",
+          muted: "hsl(var(--email-muted))",
+          border: "hsl(var(--email-border))",
+          "header-bg": "hsl(var(--email-header-bg))",
+          "header-fg": "hsl(var(--email-header-fg))",
+          accent: "hsl(var(--email-accent))",
+        },
       },
       borderRadius: {
         lg: "var(--radius)",
