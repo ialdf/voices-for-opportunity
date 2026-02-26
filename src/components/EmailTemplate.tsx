@@ -8,7 +8,7 @@ const EmailTemplate = () => {
         <div className="overflow-hidden rounded-lg shadow-xl">
           {/* Top Header - Clean */}
           <div className="bg-email-header-bg px-8 py-8 text-center">
-            <h1 className="text-3xl font-bold tracking-wider text-email-header-fg font-serif">
+            <h1 className="text-3xl font-bold tracking-wider text-email-header-fg">
               IALDF
             </h1>
             <p className="mt-1 text-xs tracking-[0.3em] uppercase text-email-header-fg/60">
@@ -29,7 +29,7 @@ const EmailTemplate = () => {
               <p className="text-xs tracking-[0.35em] uppercase text-email-accent font-semibold mb-4">
                 Introducing
               </p>
-              <h2 className="text-3xl md:text-4xl font-bold text-email-header-fg font-serif leading-tight">
+              <h2 className="text-3xl md:text-4xl font-bold text-email-header-fg leading-tight">
                 America's Missed{" "}
                 <span className="italic text-email-accent">Opportunity</span>
               </h2>
@@ -56,7 +56,7 @@ const EmailTemplate = () => {
 
             {/* Section: Reflection */}
             <div className="text-center mb-8">
-              <h2 className="mb-4 text-2xl font-semibold text-email-text font-serif italic">
+              <h2 className="mb-4 text-2xl font-semibold text-email-text italic">
                 A Moment of Reflection
               </h2>
               <p className="text-email-muted text-sm leading-relaxed max-w-lg mx-auto">
@@ -105,7 +105,7 @@ const EmailTemplate = () => {
 
             {/* Section: What AMO Will Accomplish */}
             <div className="text-center mb-6">
-              <h2 className="mb-3 text-2xl font-semibold text-email-text font-serif">
+              <h2 className="mb-3 text-2xl font-semibold text-email-text">
                 What AMO Will Accomplish
               </h2>
               <p className="text-sm text-email-muted">
@@ -163,7 +163,7 @@ const EmailTemplate = () => {
 
             {/* Section: Why This Matters */}
             <div className="text-center mb-6">
-              <h2 className="mb-3 text-2xl font-semibold text-email-text font-serif">
+              <h2 className="mb-3 text-2xl font-semibold text-email-text">
                 Why This Matters
               </h2>
             </div>
@@ -185,7 +185,7 @@ const EmailTemplate = () => {
 
             {/* Section: Privacy */}
             <div className="rounded-lg border border-email-border bg-email-bg p-6">
-              <h2 className="mb-4 text-xl font-semibold text-email-text font-serif text-center">
+              <h2 className="mb-4 text-xl font-semibold text-email-text text-center">
                 🔒 Your Privacy Is Our Priority
               </h2>
               <p className="mb-4 text-sm text-email-muted text-center">
@@ -222,7 +222,7 @@ const EmailTemplate = () => {
 
             {/* Section: What to Expect */}
             <div className="text-center mb-6">
-              <h2 className="mb-3 text-2xl font-semibold text-email-text font-serif">
+              <h2 className="mb-3 text-2xl font-semibold text-email-text">
                 What to Expect Next
               </h2>
             </div>
@@ -239,7 +239,7 @@ const EmailTemplate = () => {
 
             {/* Call to action block */}
             <div className="my-8 rounded-lg bg-email-header-bg p-8 text-center text-email-header-fg">
-              <p className="mb-4 text-lg font-medium font-serif leading-relaxed">
+              <p className="mb-4 text-lg font-medium leading-relaxed">
                 We stand united in protecting our rights, confronting
                 discrimination, and ensuring equal opportunity for every member
                 of our community.
@@ -260,7 +260,7 @@ const EmailTemplate = () => {
               <p className="mb-1 text-email-muted text-sm">
                 With gratitude and solidarity,
               </p>
-              <p className="text-lg font-bold font-serif">The IALDF Team</p>
+              <p className="text-lg font-bold">The IALDF Team</p>
             </div>
           </div>
 
